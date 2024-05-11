@@ -1,32 +1,34 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a project I undertook in order to learn and put Java into practice.
+The program itself is rather simple, it contains two classes I created
+and its main purpose is to be able to scheduler tasks and see them.
 
-{Provide a description of the software that you wrote to demonstrate the Java language.}
+The program works in its current state, but further additions are desirable.
+A user interface accompanied by a local save file system is needed for this 
+to be considered complete.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Code Walkthrough Video](https://youtu.be/lhQyCQOkX3A)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+I used Intellij Idea Community Edition to work on my Java project.
+- Java Programming
+- jdk-22
+- Java Calendar Class
+- Java Scanner Class
+- Java GregorianCalendar Class
+- Java Date Class
+- Java ArrayList Class
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [W3Schools Java Tutorial](https://www.w3schools.com/java/default.asp)
+- [ArrayList Overview](https://www2.lawrence.edu/fast/GREGGJ/CMSC150/062ArrayLists/ArrayLists.html#:~:text=The%20ArrayList%20class%20is%20a,instant%20you%20create%20the%20array.)
+- [Calendar Documentation](https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Create a local save file system
+- Create a custom interface
+- Create a working calendar

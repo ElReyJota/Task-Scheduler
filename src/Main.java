@@ -70,9 +70,9 @@ public class Main {
             // See all tasks
             else if(lookMenu){
                 int i = -1;
+                System.out.println("=== Tasks ===");
                 for (Task task1: tasks){
                     i++;
-                    System.out.println("=== Tasks ===");
                     System.out.println(i +". "+ task1.getTitle() + " " + task1.getDueDate());
                 }
                 System.out.println("-1. Menu");
@@ -100,6 +100,7 @@ public class Main {
                             case (1):
                                 tasks.remove(choice);
                                 System.out.println("Event / Task removed successfully!");
+                                taskViewer = false;
                                 break;
                             case (2):
                                 System.out.print("Please input the new title: ");
